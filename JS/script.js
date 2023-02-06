@@ -76,6 +76,7 @@ function handleToggleClick(event){
         password.type = "password"
       
     }
+    
 } */
 
 //SecondForm
