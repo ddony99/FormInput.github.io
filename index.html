@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Form</title>
+</head>
+<body>
+    <main>
+       
+        <div class="container">
+            <div class="form_login" id="Login" hidden  >
+                <h3>LOGIN</h3>
+                <form  method = "get" action="./" >
+                    <label for="">Email</label>
+                    <input type="email"  id="email" required>
+                    <label for="">Password</label>
+                    <input type="checkbox" id="showpassword" name="showpassword" >
+                    <pre for="scales">Show Password</pre>
+                    <input type="password" name="password" id="password" required>
+                    <button type="submit" class="btn">Login</button>
+                    <label id="current"></label>
+                </form>
+               
+            </div>
+            <div class="form_sign_up" id="SignUp"  >
+                <h3>SIGN UP</h3>
+                <form method = "get" action="./">
+                    <label for="">Email</label>
+                    <input type="email"   id="email" required>
+                    <label for="">Password</label>
+                    <input type="password" name="password" id="password2" required>
+                    <label for="">Confirm Password</label>
+                    <input type="checkbox" id="showpassword2" name="showpassword" >
+                    <pre for="scales">Show Password</pre>
+                    <input type="password"  name="passwordConfirm"  id="passwordConfirm2" >
+                    <button type="submit" class="btn">Sign Up</button>
+                   
+                </form>
+            </div>
+        </div>
+        <div id="main-footer">
+            <footer>
+                <pre>Copryright &copy; Donatien Dony Luckner</pre>
+            </footer>
+        </div>
+       
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    
+}
+
+/*container */
+.container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+   /* background-color: red;*/
+   background-image: linear-gradient(135deg, #af4798 40%, #de7e17);
+   border-radius: 5%;
+    
+}
+
+/*label
+label{
+   display: block;
+   margin-top: 20px;
+   font-weight: bold;
+   color: white;
+   
+}
+*/
+/*input*/
+input{
+    width: 20em;
+    height: 5ex;
+    display: block;
+    margin-top: 10px;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    background-color: bisque;
+    color: rgb(176, 24, 190);
+    font-weight: bold;
+   
+}
+input:active {
+    box-shadow: 4px 4px 10px #fc894d;
+}
+
+
+/* Check*/
+/*label*/
+label{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 100px;
+    font-weight: bold;
+    color: white;
+ }
+ 
+ /* Check*/
+ #showpassword, #showpassword2{
+    display: inline-block;
+    height: 10px;
+    width: 20px;
+    margin-top: 10px;
+ }
+
+
+  
+  pre {
+    display: inline-block;
+    color: white;
+  }
+  
+
+/*Button */
+.btn {
+    width: 10em;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    
+}
+
+.btn:active {
+    box-shadow: 2px 2px 5px #fc894d;
+}
+
+/*footer */
+#main-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 600px;
+    animation: mymove 10s infinite;
+}
+/*animation @keyframes*/
+ @keyframes mymove {
+    0%   {top: 0px; background: red; width: 100px;}
+    25%   {top: 100px; background: rgb(27, 176, 5); width: 300px;}
+    50% {top: 300px; background: black; width: 400px;}
+
+  }
