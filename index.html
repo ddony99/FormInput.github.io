@@ -11,9 +11,15 @@
     <main>
        
         <div class="container">
-            <div class="form_login" id="Login" hidden  >
+            <div>
+                <h3 id="login">Login in your Account</h3>
+               <br>
+                <h3 id="SignUp">Sign Up</h3>
+            </div>
+          
+            <div class="form_login" id="Login" hidden>
                 <h3>LOGIN</h3>
-                <form  method = "get" action="./" >
+                <form  method = "get" action="./"  >
                     <label for="">Email</label>
                     <input type="email"  id="email" required>
                     <label for="">Password</label>
@@ -21,13 +27,13 @@
                     <pre for="scales">Show Password</pre>
                     <input type="password" name="password" id="password" required>
                     <button type="submit" class="btn">Login</button>
-                    <label id="current"></label>
+                 
                 </form>
                
             </div>
-            <div class="form_sign_up" id="SignUp"  >
+            <div class="form_sign_up" id="SignUp" hidden >
                 <h3>SIGN UP</h3>
-                <form method = "get" action="./">
+                <form method = "post" action="">
                     <label for="">Email</label>
                     <input type="email"   id="email" required>
                     <label for="">Password</label>
@@ -35,8 +41,10 @@
                     <label for="">Confirm Password</label>
                     <input type="checkbox" id="showpassword2" name="showpassword" >
                     <pre for="scales">Show Password</pre>
-                    <input type="password"  name="passwordConfirm"  id="passwordConfirm2" >
+                    <input type="password"  name="passwordConfirm"  id="passwordConfirm2" required>
                     <button type="submit" class="btn">Sign Up</button>
+                    
+                   
                    
                 </form>
             </div>
@@ -48,6 +56,8 @@
         </div>
        
     </main>
-    <script src="JS/script.js"></script>
+
+
+    <script src="js/script.js"></script>
 </body>
 </html>
